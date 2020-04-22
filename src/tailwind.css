@@ -1,0 +1,24 @@
+/* index.css */
+
+@import url("https://rsms.me/inter/inter.css");
+
+*,
+html,
+body {
+  font-family: "Gotham";
+  /* outline: 1px solid red; */
+}
+
+@tailwind base;
+@font-face {
+  font-family: Gotham;
+  src: url(/GothamPro-Medium.woff) format("woff");
+}
+
+@font-face {
+  font-family: Gotham;
+  font-weight:500;
+  src: url(/GothamPro-Light.woff) format("woff");
+}
+@tailwind components;
+@tailwind utilities;
